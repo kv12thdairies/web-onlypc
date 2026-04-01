@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yearbook</title>
+
+    <link rel="stylesheet" href="page3.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Cormorant+Garamond:wght@400;500&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <h1>Loading Class of '26....</h1>
+    </div>
+    <!-- NAVBAR (YOUR EXACT) -->
+    <nav class="navbar" id="navbar">
+
+        <div class="nav-left">
+            <div class="logo-icon">
+                <i data-lucide="graduation-cap"></i>
+            </div>
+            <div class="logo-text">Batch 24–26</div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Journey</a>
+            <a href="#" class="active">Yearbook</a>
+            <a href="page4.html">Photo Vault</a>
+            <a href="page5.html" >Wall</a>
+        </div>
+
+    </nav>
+
+    <!-- SECTION -->
+    <section class="section">
+
+        <h1 class="title">The Class of '26</h1>
+        <p class="subtitle">
+            Faces that defined our journey. Moments that became memories.
+        </p>
+
+        <!-- SEARCH + FILTER ROW -->
+        <div class="top-bar">
+
+            <div class="search-box">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" id="search" placeholder="Find a classmate...">
+            </div>
+
+            <div class="filters">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="red">Red</button>
+                <button data-filter="blue">Blue</button>
+                <button data-filter="green">Green</button>
+                <button data-filter="yellow">Yellow</button>
+            </div>
+
+        </div>
+
+        <!-- GRID -->
+        <div class="grid">
+
+            <!-- IMAGE CARD -->
+            <!-- 1 -->
+            <div class="card" data-category="yellow" data-name="ayush">
+                <img src="peoples/ayu.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Ayush Sharma</h3>
+                    <div class="line"></div>
+                    <p>SCHOOL CAPTAIN ║ CS</p>
+                </div>
+
+            </div>
+
+            <!-- 2 -->
+            <div class="card" data-category="green" data-name="jeet">
+                <img src="peoples/je.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Jeet Vyas</h3>
+                    <div class="line"></div>
+                    <p>SCHOOL PREFECT ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card" data-category="green" data-name="deepak">
+                <img src="peoples/de.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Deepak</h3>
+                    <div class="line"></div>
+                    <p>G-HOUSE CAPTAIN ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="card" data-category="blue" data-name="sagar">
+                <img src="peoples/sa.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Sagar Deka</h3>
+                    <div class="line"></div>
+                    <p>B-HOUSE VC ║ BIO</p>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="card" data-category="red" data-name="karan">
+                <img src="peoples/ka.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Karandeep</h3>
+                    <div class="line"></div>
+                    <p>R-HOUSE CAPTAIN ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="card" data-category="blue" data-name="bharat">
+                <img src="peoples/ba.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Bharat</h3>
+                    <div class="line"></div>
+                    <p>B-HOUSE CAPTAIN ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="card" data-category="red" data-name="utkarsh">
+                <img src="peoples/utk.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Utkarsh</h3>
+                    <div class="line"></div>
+                    <p>CCA CAPTAIN ║ CS ║ BIO</p>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="card" data-category="green" data-name="dhruv">
+                <img src="peoples/da.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Dhruv</h3>
+                    <div class="line"></div>
+                    <p>G-H SPORTS CAPTAIN ║ CS</p>
+                </div>
+
+            </div>
+
+            <!-- 9 -->
+            <div class="card" data-category="yellow" data-name="smit">
+                <img src="peoples/sm.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Smit</h3>
+                    <div class="line"></div>
+                    <p>PUBLICATION CAPTAIN ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="card" data-category="green" data-name="harshil">
+                <img src="peoples/ha.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Harshil</h3>
+                    <div class="line"></div>
+                    <p>G-HOUSE VC ║ BIO</p>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="card" data-category="green" data-name="raj">
+                <img src="peoples/ra.jpg">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>Raj</h3>
+                    <div class="line"></div>
+                    <p>SPORTS CAPTAIN ║ BIO</p>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="card" data-category="yellow" data-name="manisha">
+                <img src="https://picsum.photos/400/500?">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>M</h3>
+                    <div class="line"></div>
+                    <p>CCA CAPTAIN ║ CS</p>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="card" data-category="blue" data-name="ruqiya">
+                <img src="https://picsum.photos/400/500?6">
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>R</h3>
+                    <div class="line"></div>
+                    <p>B-HOUSE CAPTAIN ║ BIO</p>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="card" data-category="green" data-name="angle">
+                <img src="https://picsum.photos/400/500?7"  >
+                <div class="hover-btn">
+                    <button>Open Yearbook</button>
+                </div>
+                <div class="info">
+                    <h3>A</h3>
+                    <div class="line"></div>
+                    <p>SCHOOL CAPTAIN ║ CS </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="modal" id="yearbookModal">
+
+        <div class="modal-box">
+
+            <!-- LEFT -->
+            <div class="modal-left">
+                <img id="modalImg">
+
+                <div class="profile-info">
+                    <h2 id="modalName"></h2>
+                    <p id="modalRole"></p>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="modal-right">
+
+                <!-- HEADER -->
+                <div class="modal-header">
+                    <h3>Message From The Students</h3>
+                    <span id="replyCount">0 messages</span>
+                </div>
+
+                <!-- MESSAGES -->
+                <div class="messages" id="messages"></div>
+
+                <!-- EMPTY STATE -->
+                <div class="empty-state" id="emptyState">
+                    Drop Your Message Here! ✍️
+                </div>
+
+                <!-- INPUT -->
+                <div class="message-input">
+                    <input type="text" id="nameInput" placeholder="Your name">
+                    <input type="text" id="msgInput" placeholder="Write a farewell message...">
+                    <button id="sendBtn">➤</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="page3.js"></script>
+     <footer class="footer">
+
+        <div class="footer-divider">
+            <span class="line"></span>
+            <span class="icon">🌐︎</span>
+            <span class="line"></span>
+        </div>
+
+        <p class="footer-text">
+            © 2026 Batch. All memories preserved forever.
+        </p>
+
+    </footer>
+</body>
+
+</html>
