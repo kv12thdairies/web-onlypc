@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Brown UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="vignette"></div>
+
+        <div class="content">
+            <p class="tagline">A Journey We’ll Always Carry</p>
+
+            <h1>Batch <span>2024 — 26</span></h1>
+
+            <div class="divider"></div>
+
+            <p class="desc">
+                Two years of laughter, late evenings, and lessons learned.
+                Join us as we look back on the moments that defined us.
+            </p>
+            <div class="cta" onclick="goToNext()">
+                <p>CLICK TO START THE JOURNEY</p>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+function goToNext() {
+  document.body.classList.add("fade-out");
+
+  setTimeout(() => {
+    window.location.href = "page2.html";
+  }, 600); // match CSS timing
+}
+</script>
+</html>
