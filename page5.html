@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Goodbye Wall</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="page5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="grain"></div>
+    <div class="loader" id="loader">
+        <div class="loader-text">Loading Wall...</div>
+    </div>
+    <nav class="nav glass" id="navbar">
+
+        <div class="nav-left">
+            <div class="logo-icon">
+                <i data-lucide="graduation-cap"></i>
+            </div>
+            <div class="logo-text">Batch 24–26</div>
+        </div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Journey</a>
+            <a href="page3.html">Memories</a>
+            <a href="page4.html">Photo Vault</a>
+            <a href="#" class="active">Wall</a>
+        </div>
+
+    </nav>
+    <!-- TOP SECTION -->
+    <section class="hero">
+        <br><br>
+        <div class="tag">❤ Final Goodbye</div>
+
+        <h1>Message Wall of Reflection</h1>
+        <p>
+            A space to leave your final words, memories, and wishes.
+            These notes will remain here as a testament to our journey.
+        </p>
+    </section>
+
+    <!-- WALL -->
+    <section class="wall" id="wall"></section>
+
+    <!-- ADD BUTTON -->
+
+    <!-- Add Message Button -->
+    <button class="add-btn" onclick="openModal()">🧾 Add Message</button>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2 style="color:#d4af37; text-align:center;"> 🍻Leave a Note</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+            <button onclick="submitMessage()">Post</button>
+        </div>
+    </div>
+    <footer class="footer">
+
+        <div class="footer-divider">
+            <span class="line"></span>
+            <span class="icon">🌐︎</span>
+            <span class="line"></span>
+        </div>
+
+        <p class="footer-text">
+            © 2026 Batch. All memories preserved forever.
+        </p>
+
+    </footer>
+    <script src="page5.js"></script>
+
+</body>
+
+</html>

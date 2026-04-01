@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Archive</title>
+
+    <link rel="stylesheet" href="page4.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Great+Vibes&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="grain"></div>
+
+    <div class="loader">Loading The Vault...</div>
+
+    <nav class="nav glass" id="navbar">
+
+        <div class="nav-left">
+            <div class="logo-icon">
+                <i data-lucide="graduation-cap"></i>
+            </div>
+            <div class="logo-text">Batch 24–26</div>
+        </div>
+<div class="menu-toggle" id="menuToggle">
+  ☰
+</div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Journey</a>
+            <a href="page3.html">Memories</a>
+            <a href="#" class="active">Photo Vault</a>
+            <a href="page5.html">Wall</a>
+        </div>
+
+    </nav>
+
+    <section class="archive">
+
+        <div class="archive-header">
+            <h1>The Archive</h1>
+            <p>
+                A cinematic collection of fleeting moments, frozen in time.
+                From the first lecture to the final goodbye.
+            </p>
+        </div>
+
+        <div class="filters glass">
+            <button class="active" onclick="filterImages('all', this)">All</button>
+            <button onclick="filterImages('fer', this)">Fairwell</button>
+            <button onclick="filterImages('nav', this)">Navratri</button>
+            <button onclick="filterImages('par', this)">Parties</button>
+            <button onclick="filterImages('la', this)">Labs</button>
+            <button onclick="filterImages('tea', this)">Teachers Day</button>
+            <button onclick="filterImages('ex', this)">Extra</button>
+
+        </div>
+
+        <div class="gallery">
+
+            <!-- CARD -->
+            <div class="card" data-category="fer">
+                <img data-src="fer/1.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/11.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/111.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/1111.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/11111.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/111111.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/22.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/222.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/2222.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/22222.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/222222.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/3.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/33.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/333.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/2222222.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="fer">
+                <img data-src="fer/1111111.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+
+
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="nav">
+                <img data-src="vault/nav7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p1.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p3.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p8.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p9.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p10.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="par">
+                <img data-src="party/p11.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t1.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t3.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="tea">
+                <img data-src="tec/t8.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/1.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/3.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/8.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="la">
+                <img data-src="la/9.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/1.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/2.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/3.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/4.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/5.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/6.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/7.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/8.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/9.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/10.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/11.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/12.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/13.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/14.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/15.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/16.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/17.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/18.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/19.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+            <div class="card" data-category="ex">
+                <img data-src="ex/20.jpg" class="lazy">
+                <div class="overlay">
+                    <span class="date">12 Aug 2023</span>
+                    <p>First bunk together.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <div class="modal" id="modal">
+        <img id="modalImg">
+    </div>
+    <footer class="footer">
+
+        <div class="footer-divider">
+            <span class="line"></span>
+            <span class="icon">🌐︎</span>
+            <span class="line"></span>
+        </div>
+
+        <p class="footer-text">
+            © 2026 Batch. All memories preserved forever.
+        </p>
+
+    </footer>
+    <script src="page4.js"></script>
+
+</body>
+
+</html>
